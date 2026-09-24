@@ -1,0 +1,120 @@
+@charset "utf-8";
+body {
+	font-family: "M PLUS Rounded 1c", "serif";
+	font-size: 2;
+	color: white;
+	margin: 0;
+	background-color: gray;
+}
+
+h1 {
+	font-family: "Ranchers", sans-serif;
+  font-weight: 10;
+  font-style: normal;
+	
+	color: white
+
+	
+}
+
+h2 {
+	 font-family: "Ranchers", sans-serif;
+  font-weight: 7;
+text-underline-position: below;
+  font-style: normal;
+}
+section {
+	padding: 10%;
+	
+}
+
+.sectionBG {
+	background-color: orange;
+	font-size: 12;
+	color: black;
+	text-align: center;
+	margin-bottom: inherit;
+
+
+}
+.sectionBG2 {
+	background-color: #B45E07;
+	font-family: "M PLUS Rounded 1c", "serif";
+	font-size: 2;
+	text-align: center;
+
+	margin-bottom: inherit;
+
+	color: white;
+	margin: 0;
+	
+}
+.leftmost {
+	text-align: left;
+	font-size: "2em";
+}
+a {
+		color: white
+	}
+a:hover {
+	color: yellow;
+}
+footer {
+	background-color: gray;
+	font-family: "M PLUS Rounded 1c", "serif";
+	font-size: 2;
+	color: black;
+	margin-bottom: inherit;
+	
+}
+.button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+font-family: "M PLUS Rounded 1c", sans-serif;
+border-radius: 5px;
+	
+}
+
+.button:hover {
+	background-color: yellow;
+}
+.centerImage{
+	display: flex;
+	justify-content: center;
+}
+
+/* Whenever you want flow to stop, use style="clear: both" */
+
+.leftImage {
+	float: left;
+	padding-right: 40px;
+	padding-bottom: 30px;
+	overflow: auto;
+}
+
+.rightImage {
+	float: right;
+	padding-left: 40px;
+	padding-bottom: 30px;
+	overflow: auto;
+	
+
+}
+
+.hero {
+    	background-image: url("images/HeadTile.jpg")
+
+}
+
+.hero img {
+    width: 300px;
+    height: auto;
+}
